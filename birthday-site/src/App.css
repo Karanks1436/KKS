@@ -198,3 +198,56 @@ body {
   color: #ffd1dc;
   text-shadow: 0 0 10px #ff7eb3;
 }
+
+.wishes-section {
+  margin-top: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wish-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.wish-inputs input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 40%;
+  min-width: 120px;
+}
+
+.wish-inputs button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.wishes-chat {
+  max-height: 300px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+
+.wish-message {
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  color: blue;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
