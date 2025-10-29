@@ -22,7 +22,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './App.css'
 import Birthday from './Birthday'
-import Friend from './friend'
+import Friend from './Friend'
 
 function App() {
   const [count, setCount] = useState(0)
