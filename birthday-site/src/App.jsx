@@ -31,7 +31,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="KKS/" element={<Birthday />} />
-        <Route path="KKS/friend" element={<Friend />} />
+        <Route path="KKS/friend/" element={<Friend />} />
 
       </Routes>
     </BrowserRouter>
